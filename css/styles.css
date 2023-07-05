@@ -1,0 +1,144 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  background-color: #ffffff;
+}
+.visually-hidden {
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+
+/*--------------------HEADER----------------*/
+.logo {
+  color: var(--iris);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.span {
+  color: var(--navyblue);
+}
+.navigation-item {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
+}
+.address-item {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.navigation-item:hover,
+.navigation-item:focus,
+.address-item:hover,
+.address-item:focus {
+  color: var(--ocean);
+}
+
+/*----------------------FOOTER----------------*/
+.footer {
+  background-color: var(--navyblue);
+}
+.footer-span {
+  color: var(--cloud);
+}
+.footer p {
+  color: var(--cloud);
+}
+
+/*--------------PORTFOLIO-Progects----------*/
+.filter-button {
+  background-color: var(--cloud);
+  color: var(--iris);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/*--------------MAIN PAGE-HERO----------*/
+.hero {
+  background-color: var(--navyblue);
+}
+.hero-header {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-button {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--iris);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+
+/* --------------TEAM---------- */
+.team {
+  background-color: var(--cloud);
+}
+.teammate {
+  background-color: var(--white);
+}
+
+/*--------------OTHER TEXT----------*/
+.text-h-two {
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.text-h-three {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text-p {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
