@@ -52,14 +52,14 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.page-container {
+/* .page-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 main {
   flex-grow: 1;
-}
+} */
 .container {
   width: 100%;
   max-width: 1158px;
@@ -76,15 +76,13 @@ main {
 /*--------------------HEADER----------------*/
 .header {
   border-bottom: 1px solid var(--cornflower);
-  background: var(--white);
 }
-.header-f-container {
+.header-flex-container {
   display: flex;
   align-items: center;
 }
-.logo-menu-f {
+.logo-flex-menu {
   display: flex;
-  gap: 76px;
   align-items: center;
   flex-grow: 1;
 }
@@ -138,7 +136,7 @@ main {
   background-color: var(--navyblue);
   padding: 100px 0;
 }
-.logo-footer {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   color: var(--iris);
@@ -152,8 +150,12 @@ main {
 .footer-span {
   color: var(--cloud);
 }
-.footer p {
+.footer-paragraph {
   color: var(--cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /*--------------PORTFOLIO-Progects----------*/
@@ -244,15 +246,22 @@ main {
 }
 /* ----------  SECTION TWO ----------------------*/
 .section-two {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
-.two-f-container {
+.section-two-container {
   display: flex;
   gap: 24px;
 }
-.two-item {
-  width: calc((100% - 72) / 4);
+.section-two-item {
+  width: calc((100% - 72px) / 4);
+}
+.section-two-paragraph,
+.section-team-paragraph,
+.project-item-paragraph {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* ----------  SECTION THREE ----------------------*/
 .section-three {
@@ -292,26 +301,15 @@ main {
   text-align: center;
   margin-bottom: 72px;
 }
-.text-h-three {
+.section-two-header,
+.section-team-header,
+.project-item-header {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-}
-.teammate .text-h-three {
-  text-align: center;
-}
-.teammate .text-p {
-  text-align: center;
-}
-.text-p {
-  color: var(--slate);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
 }
 .teammate-div {
   text-align: center;
